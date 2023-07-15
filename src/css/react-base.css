@@ -6,7 +6,7 @@
 }
 
 .defaultBackground {
-    background-color: #1F2633;
+    background-color: transparent;
 }
 
 .header {
@@ -22,6 +22,7 @@
 input[type=text] {
     background-color: transparent;
     border: 1px solid #4A5568;
+    color: white !important;
 }
 
 .footer > div{
@@ -29,7 +30,7 @@ input[type=text] {
 }
 
 .detail-body > div {
-    width: 1040px;
+    width: 1200px;
 }
 
 .tableSortList > a.active{
@@ -116,7 +117,7 @@ input[type=text] {
 }
 
 /* lg */
-@media only screen and (max-width: 1040px) {
+@media only screen and (max-width: 1200px) {
     .body div {
         width: 100%;
     }
@@ -167,6 +168,10 @@ input[type=text] {
 
 /* md */
 @media only screen and (max-width: 768px) {
+    .staking_modal{
+        padding-top: 0px !important;
+    }
+
     .lorWatch {
         text-align: center;
     }
@@ -224,10 +229,10 @@ input[type=text] {
     .wallet_connect{
         width: 100px;
     }
-
-    .roadmap_card {
-        width: 360px !important;
-    }
+/* 
+     .roadmap_card {
+        width: 400px !important;
+    }  */
 
     .myVideo {
         height: 97% !important;
@@ -239,14 +244,23 @@ input[type=text] {
     .smHidden {
         display: none;
     }
-
+/* 
     .first_section{
         height: 640px !important;
-    }
+    } */
 
     /* .myVideo {
         height: 97% !important;
     } */
+
+
+    .roadmap_card {
+        width: 350px !important;
+    }
+
+    .devote_card{
+        width: 340px !important;
+    }
 
     .smShow {
         text-align: center;
@@ -404,7 +418,7 @@ input[type=text] {
     cursor: pointer;
     padding: 18px;
     text-align: left;
-    width: 580px;
+    width: 780px;
     border: none;
     outline: none;
     transition: 0.4s;
@@ -420,7 +434,7 @@ input[type=text] {
     padding: 0 18px;
     background-color: rgb(25, 31, 41);
     /* max-height: 100px; */
-    width: 580px;
+    width: 780px;
     transition: max-height 0.2s ease-out;
   }
 
@@ -437,4 +451,12 @@ input[type=text] {
     margin-left: 20px;
     font-size: 22px;
     content: '∨'; /* Unicode character for "minus" sign (-) */
+  }
+
+  section {
+    transition: transform 1s ease-out;
+  }
+  
+  section:target {
+    transform: translateY(50px);
   }

@@ -6,14 +6,13 @@
     font-family: roboto;
     text-align: justify;
     cursor: pointer;
-    margin:30px;
+
     transform-style: preserve-3d;
     transform: perspective(1000px);
-   
+    width: 500px;
   }
   .card {
     display: grid;
-
     grid-template-rows: 210px 250px 20px;
     grid-template-areas: "image" "text" "stats";
     border-radius: 18px;
@@ -58,6 +57,9 @@
   .js-tilt-glare {
     border-radius: 18px;
   }
+
+
+
   .card-image {
     grid-area: image;
     background: linear-gradient(#fff0 0%, #fff0 70%, #1d1d1d 100%),url("./img/1.jpg");
@@ -118,10 +120,11 @@
     text-transform: uppercase;
   }
   
+
   
   /*card2*/
   .card-image.card2 {
-    background: linear-gradient(#fff0 0%, #fff0 70%, #1d1d1d 100%),url("img/2.jpg");
+    background: linear-gradient(#fff0 0%, #fff0 70%, #1d1d1d 100%),url("./img/2.jpg");
     background-size: cover;
   }
   .card-text.card2 .date {
@@ -134,9 +137,12 @@
   .card-stats.card2 {
     background: rgb(255, 77, 7);
   }
+
+
+
   /*card3*/
   .card-image.card3 {
-    background: linear-gradient(#fff0 0%, #fff0 70%, #1d1d1d 100%),url("img/3.jpg");
+    background: linear-gradient(#fff0 0%, #fff0 70%, #1d1d1d 100%),url("./img/3.jpg");
     background-size: cover;
   }
   .card-text.card3 .date {
@@ -147,5 +153,23 @@
     border-right: 1px solid rgb(14, 122, 50);
   }
   .card-stats.card3 {
+    background: rgb(0, 189, 63);
+  }
+
+
+
+  /*card4*/
+  .card-image.card4 {
+    background: linear-gradient(#fff0 0%, #fff0 70%, #1d1d1d 100%),url("./img/4.jpg");
+    background-size: cover;
+  }
+  .card-text.card4 .date {
+    color: rgb(0, 189, 63);
+  }
+  .card-stats.card4 .border {
+    border-left: 1px solid rgb(14, 122, 50);
+    border-right: 1px solid rgb(14, 122, 50);
+  }
+  .card-stats.card4 {
     background: rgb(0, 189, 63);
   }

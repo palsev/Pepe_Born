@@ -1,0 +1,18 @@
+.active-list{
+ background-color: transparent;
+}
+.active-list:hover {
+    background-color: white;
+}
+.selected-item .pos-relative{
+    position: relative;
+}
+
+.selected-item .blur-effect{
+        outline: 2px dashed #d1cfcf;
+        outline-offset: 2px;
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+}

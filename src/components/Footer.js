@@ -24,7 +24,7 @@ export default function Example() {
                   </div>
                 </div>
                 <div className='flex flex-row footer_email pt-5'>
-                  <input type="text" placeholder='Enter email' className='footer_input mr-2' style={{width: "270px", backgroundColor: "#1F2633", height: "40px"}}></input>
+                  <input type="text" placeholder='Enter Email' className='footer_input mr-2' style={{width: "270px", backgroundColor: "#1F2633", height: "40px"}}></input>
                   <div className='footer_subscirbe focus:ring-4 focus:outline-none focus:ring-spring-green-800 group-hover:from-spring-green-400 group-hover:to-cerulean-600 hover:text-white relative inline-flex items-center justify-center p-0.5 overflow-hidden text-sm font-medium rounded-lg group bg-gradient-to-br from-[#1FD992] to-[#249CD2]  text-white min-w-fit hover:cursor-pointer leading-6'>
                     <span className='group-hover:bg-opacity-0 relative px-5 py-1 transition-all ease-in duration-75 bg-ebony-clay-500 rounded-md flex flex-row font-bold min-w-fit items-center'>Subscribe</span>
                   </div>
@@ -38,21 +38,21 @@ export default function Example() {
                 <p className='text-sm text-gray-100 font-bold py-2'>General</p>
                 <p className='text-sm text-yellow-400 py-1'>About</p>
                 <p className='text-sm text-yellow-400 py-1'>Blog</p>
-                <p className='text-sm text-yellow-400 py-1'>Contact us</p>
+                <p className='text-sm text-yellow-400 py-1'>Contact Us</p>
                 <p className='text-sm text-yellow-400 py-1'>Support</p>
                 <p className='text-sm text-yellow-400 py-1'>Community</p>
               </div>
 
               <div className='footerLink py-5'>
                 <p className='text-sm text-gray-100 font-bold py-2'>Legal</p>
-                <p className='text-sm text-yellow-400 py-1'>Terms & conditions</p>
-                <p className='text-sm text-yellow-400 py-1'>Privacy policy</p>
-                <p className='text-sm text-yellow-400 py-1'>Cookie policy</p>
+                <p className='text-sm text-yellow-400 py-1'>Terms & Conditions</p>
+                <p className='text-sm text-yellow-400 py-1'>Privacy Policy</p>
+                <p className='text-sm text-yellow-400 py-1'>Cookie Policy</p>
               </div>
             </div>
 
             <div className='flex justify-center flex-col items-center pt-5'>
-              <p className='text-lg text-gray-300 font-bold py-2' style={{marginLeft: "-10px"}}>Follow us</p>
+              <p className='text-lg text-gray-300 font-bold py-2' style={{marginLeft: "-10px"}}>Follow Us</p>
               <div className='flex flex-row py-1 justify-start'>
                   <a href="https://twitter.com/pepebornlabs" target="_blank"><img className='pr-5' src="img/twitter.svg" width="50"></img></a>                  
                   <a href="https://t.me/pepeborn" target="_blank"><img className='pr-5' src="img/telegram.svg" width="50"></img></a>
@@ -61,7 +61,7 @@ export default function Example() {
             </div>
           </div>
         </div>
-        <div className='text-sm text-gray-400 py-2'> Copyright 2023 Pepe born All rights reserved </div>
+        <div className='text-sm text-gray-400 py-2'> Copyright 2023 Pepe Born All Rights Reserved </div>
     </div>
   )
 }

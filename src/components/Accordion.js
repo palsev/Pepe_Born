@@ -10,7 +10,7 @@ function Accordion(props) {
 
   return (
     <div className='faq_accordion'>
-      <button className={`accordion ${isActive ? 'active' : ''} text-lg font-bold text-gray-600 rounded-xl my-5`} onClick={toggleAccordion}  style={{backgroundColor: "rgba(0, 0, 0, 0.5)", color: "white"}}>{props.title}</button>
+      <button className={`accordion ${isActive ? 'active' : ''} text-base font-bold text-gray-600 rounded-xl my-2`} onClick={toggleAccordion}  style={{backgroundColor: "rgba(0, 0, 0, 0.5)", color: "white"}}>{props.title}</button>
       <div className="text-left panel text-sm text-gray-400 rounded-xl" style={{ display: isActive ? 'block' : 'none', backgroundColor: "rgba(0, 0, 0, 0.25)" }}>
         {props.content}
       </div>

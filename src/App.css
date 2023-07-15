@@ -32,7 +32,29 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.nft_button {
+  background-image: linear-gradient(271.56deg, rgb(133, 100, 28) 44.99%, rgb(133, 79, 28) 74.63%);
+}
+
+.nft_button:hover{
+  background-image: linear-gradient(271.56deg, rgb(200, 150, 50) 44.99%, rgb(200, 120, 50) 74.63%);
+}
+
+.nft_button:active{
+  background-image: linear-gradient(271.56deg, rgb(80, 60, 17) 44.99%, rgb(80, 47, 17) 74.63%);
+
+}
+
+.connect_button {
+  padding: 0px 15px 1px;
+  height: 40px;
+  color: rgb(255 255 255);
+  background-color: rgb(51 150 255);
 }
